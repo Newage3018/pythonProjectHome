@@ -15,6 +15,6 @@ print(ForwardsListOut)
 MyFile = open('переадпесация.txt', 'w')
 
 for k in range(LengthOfList-1):
-    MyFile.writelines(NumbersListOut[k] + ' ' + ForwardsListOut[k])
+    MyFile.writelines(NumbersListOut[k] + ' ' + ForwardsListOut[k] + '\n')
 
 MyFile.close()
